@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ThirdWeb-Login',
+  title: 'ThirdWeb Web3-Login',
   description: 'Example ThirdWeb Login',
 }
 
