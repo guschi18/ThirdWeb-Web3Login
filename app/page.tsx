@@ -6,7 +6,6 @@ import {
   coinbaseWallet,
   walletConnect,
   localWallet,
-  embeddedWallet,
   en,
   darkTheme,
 } from "@thirdweb-dev/react";
@@ -26,16 +25,6 @@ export default function Home() {
         coinbaseWallet({ recommended: true }),
         walletConnect(),
         localWallet(),
-        embeddedWallet({
-          auth: {
-            options: [
-              "email",
-              "google",
-              "apple",
-              "facebook",
-            ],
-          },
-        }),
       ]}>
     <main className="min-h-screen bg-cover bg-center bg-[url('https://firebasestorage.googleapis.com/v0/b/login-page-b381a.appspot.com/o/background.jpg?alt=media&token=90a49f90-6cca-4202-880b-538286e65774')]">
       <div className="flex flex-row justify-between">
