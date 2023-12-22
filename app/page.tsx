@@ -44,7 +44,7 @@ export default function Home() {
         Example</div>
       <div className="mt-2 mr-2">
         <Image
-      src="/images/logo.png"
+      src="https://firebasestorage.googleapis.com/v0/b/login-page-b381a.appspot.com/o/logo.png?alt=media&token=f7fa2874-4ff6-40cf-9e8d-f8f08591e05b"
       width={140}
       height={100}
       alt="Logo"
