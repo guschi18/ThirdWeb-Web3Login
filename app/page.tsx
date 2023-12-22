@@ -37,7 +37,7 @@ export default function Home() {
           },
         }),
       ]}>
-    <main className="min-h-screen bg-cover bg-center bg-[url('/images/background.jpg')]">
+    <main className="min-h-screen bg-cover bg-center bg-[url('https://firebasestorage.googleapis.com/v0/b/login-page-b381a.appspot.com/o/background.jpg?alt=media&token=90a49f90-6cca-4202-880b-538286e65774')]">
       <div className="flex flex-row justify-between">
       <div className="m-2 font-mono text-2xl font-bold 
       bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
